@@ -7,7 +7,7 @@ A smart chatbot that supports text, voice, image, and PDF input. It leverages AI
 - Domain-specific assistance (Education, Healthcare, etc.)
 - Multimodal input support: Text, Voice, Image, PDF.
 - Clean and responsive UI with sidebar navigation.
-- Response loading animation and professional design.
+- Response loading animation and professional design
 
 ## Setup & Installation
 1. Clone this repository.
