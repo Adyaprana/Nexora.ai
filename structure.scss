@@ -1,0 +1,15 @@
+// Multimodal_Virtual_Assistant/
+// │── app.py                 # Main Streamlit application (upgraded)
+// │── main.py                # Core chatbot logic (upgraded)
+// │── utils.py               # Utility functions (upgraded)
+// │── domain_prompts.py       # Predefined responses (unchanged)
+// │── speech.py              # New: Handles voice input & output
+// │── image_processing.py     # New: Processes images (OCR)
+// │── pdf_processing.py       # New: Reads PDFs & extracts text
+// │── index.html             # Updated UI file
+// │── styles.css             # Updated CSS file
+// │── pyproject.toml         # Dependencies (updated)
+// │── poetry.lock            # Dependencies lock file (updated)
+// │── secrets.toml           # API keys & credentials
+// │── docs/                  # Documentation folder
+// │── requirements.txt       # Python package dependencies (for Pip)

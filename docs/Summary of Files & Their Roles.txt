@@ -1,0 +1,32 @@
+app.py:
+Main Streamlit app with improved UI, sidebar navigation, and loading animations.
+
+domain_prompts.py:
+Contains domain-specific configuration (icons, descriptions, system prompts).
+
+main.py:
+Contains core logic for handling different input modes and calling the Mistral API.
+
+speech.py:
+Handles speech-to-text conversion.
+
+image_processing.py:
+Handles OCR for image inputs using pytesseract.
+
+pdf_processing.py:
+Handles text extraction from PDF files using PyMuPDF (fitz).
+
+README.md:
+Project overview, setup, usage, deployment instructions, technology used, and live demo link.
+
+docs/ folder:
+Contains additional documentation files: About Project, Technology Used, Future Scope, etc.
+
+assets/ folder:
+Contains images like logos and any additional visual assets.
+
+.streamlit/secrets.toml:
+Contains sensitive keys like MISTRAL_API_KEY.
+
+PPT & Report:
+Prepared separately to showcase your project to your evaluators.
