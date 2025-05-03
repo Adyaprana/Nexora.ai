@@ -1,13 +1,15 @@
 import requests
 import base64
 import json
+
+
 import PyPDF2
 import speech_recognition as sr
 from PIL import Image
 import io
 import streamlit as st
 
-# Load Mistral API key from Streamlit secrets (ensure .streamlit/secrets.toml is set up)
+# Load MistralAPI key from Streamlit secrets (ensure .streamlit/secrets.toml is set up)
 MISTRAL_API_KEY = st.secrets["MISTRAL_API_KEY"]
 MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
 
