@@ -2,7 +2,7 @@ streamlit==1.19.0
 openai==1.0
 speechrecognition==3.8.1
 pytesseract==0.3.7
-pillow==9.1.1
+pillow==9.5.0
 pymupdf>=1.22.0
 pygments==2.19.1
 rich==14.0.0
