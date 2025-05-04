@@ -277,21 +277,21 @@ else:
         if st.button("Change Domain", key="change_domain"):
             st.session_state.domain = None
 
-        # Export Chat Button
-if st.button("Export Chat as .txt", key="export_chat"):
-    from io import StringIO
-    chat_text = ""
-    for msg in st.session_state.messages:
-        role = "You" if msg["role"] == "user" else "Assistant"
-        chat_text += f"{role}: {msg['content']}\n\n"
+        from io import StringIO
 
-    st.download_button(
+        chat_text = ""
+        for msg in st.session_state.messages:
+            role = "You" if msg["role"] == "user" else "Assistant"
+            chat_text += f"{role}: {msg['content']}\n\n"
+
+        st.download_button(
         label="Download Chat History",
-        data=chat_text,        
+        data=chat_text,
         file_name="nexora_chat.txt",
         mime="text/plain",
         key="download_button"
-    )
+     )
+
 
 # ---------------- Footer ---------------- #
 st.markdown("""
