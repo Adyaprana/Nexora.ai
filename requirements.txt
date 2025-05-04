@@ -9,8 +9,7 @@ rich==14.0.0
 markdown-it-py==3.0.0
 mdurl==0.1.2
 
-uv pip install "pillow>=10.0.0"
-uv pip install -r requirements.txt
+
 
 
 

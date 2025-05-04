@@ -1,2 +1,0 @@
-sudo apt update
-sudo apt install -y libjpeg-dev zlib1g-dev libpng-dev libtiff-dev libfreetype6-dev

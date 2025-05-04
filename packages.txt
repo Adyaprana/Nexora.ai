@@ -3,6 +3,13 @@ libsm6
 libxext6
 libxrender-dev
 zlib1g-dev
+libjpeg-dev
+libpng-dev
+libtiff-dev
+libfreetype6-dev
+
+
+
 
 
 
