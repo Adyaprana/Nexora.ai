@@ -2,7 +2,6 @@ import streamlit as st
 from main import get_response
 from domain_prompts import DOMAIN_CONFIGS
 from speech import recognize_speech
-from tts import speak_text
 
 
 # Initialize session state variables
@@ -239,12 +238,14 @@ else:
 
         elif input_mode == "Voice":
             if st.button("🎤 Speak Now", key="record_button"):
-             with st.spinner("Listening..."):
-                   user_query = recognize_speech()
-             if user_query and "Could not process" not in user_query:
-                   st.success(f"Recognized: {user_query}")
-             else:
-                 st.error("❌ Could not process voice input. Please try again or check your mic.")
+                with st.spinner("Listening..."):
+                   user_query = recognize_speech()  # Process voice input
+            if user_query and "Could not process" not in user_query:
+                st.success(f"Recognized: {user_query}")
+                response = get_response(user_query)
+                st.write(f"Response: {response}")
+            else:
+               st.error("❌ Could not process voice input. Please try again or check your mic.")
 
 
         elif input_mode == "Image":
@@ -276,22 +277,20 @@ else:
 
         if st.button("Change Domain", key="change_domain"):
             st.session_state.domain = None
+        from io import StringIO
+        chat_text = ""
+        for msg in st.session_state.messages:
+            role = "You" if msg["role"] == "user" else "Assistant"
+            chat_text += f"{role}: {msg['content']}\n\n"
 
-        # Export Chat Button
-if st.button("Export Chat as .txt", key="export_chat"):
-    from io import StringIO
-    chat_text = ""
-    for msg in st.session_state.messages:
-        role = "You" if msg["role"] == "user" else "Assistant"
-        chat_text += f"{role}: {msg['content']}\n\n"
-
-    st.download_button(
+        st.download_button(
         label="Download Chat History",
-        data=chat_text,        
+        data=chat_text,
         file_name="nexora_chat.txt",
         mime="text/plain",
         key="download_button"
-    )
+     )
+
 
 # ---------------- Footer ---------------- #
 st.markdown("""
