@@ -1,0 +1,5 @@
+# packages.txt
+tesseract-ocr
+libsm6
+libxext6
+libxrender-dev
