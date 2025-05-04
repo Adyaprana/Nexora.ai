@@ -3,6 +3,24 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
+# Ignore virtual environment
+venv/
+# Ignore secrets.toml
+secrets.toml
+# Ignore Streamlit folder
+streamlit/
+.streamlit/
+# Ignore poetry files if you're using requirements.txt
+poetry.lock
+pyproject.toml
+# Ignore docs folder
+docs/
+.streamlit/secrets.toml
+
+
+
+
 # C extensions
 *.so
 
