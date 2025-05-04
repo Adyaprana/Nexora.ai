@@ -5,7 +5,8 @@ pytesseract==0.3.7
 pillow==9.1.1
 pymupdf==1.19.6
 pygments==2.19.1
-rich==14.0.0
-markdown-it-py==3.0.0
+rich==13.3.4  # Specifying a slightly older version
+markdown-it-py==2.0.0  # Use this specific version instead of 3.0.0
 mdurl==0.1.2
+
 
