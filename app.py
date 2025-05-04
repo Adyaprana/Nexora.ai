@@ -2,6 +2,8 @@ import streamlit as st
 from main import get_response
 from domain_prompts import DOMAIN_CONFIGS
 from speech import recognize_speech
+from tts import speak_text
+
 
 # Initialize session state variables
 if 'domain' not in st.session_state:
@@ -236,9 +238,14 @@ else:
             user_query = st.text_input("Enter your query:", key="text_input")
 
         elif input_mode == "Voice":
-            if st.button("Record Query", key="record_button"):
-                user_query = recognize_speech()
-                st.success(f"Recognized: {user_query}")
+            if st.button("🎤 Speak Now", key="record_button"):
+             with st.spinner("Listening..."):
+                   user_query = recognize_speech()
+             if user_query and "Could not process" not in user_query:
+                   st.success(f"Recognized: {user_query}")
+             else:
+                 st.error("❌ Could not process voice input. Please try again or check your mic.")
+
 
         elif input_mode == "Image":
             uploaded_image = st.file_uploader("Upload an Image", type=["png", "jpg", "jpeg"], key="image_uploader")
@@ -254,18 +261,37 @@ else:
                 user_query = extract_text_from_pdf(uploaded_pdf)
                 st.info(f"Extracted Text: {user_query}")
 
-        # Send Query Button
+# Send Query Button
         if st.button("Send Query", key="send_query"):
             if user_query.strip() != "":
                 st.session_state.messages.append({"role": "user", "content": user_query})
-                with st.spinner("Assistant is typing..."):
-                    response = get_response(user_query)
-                st.session_state.messages.append({"role": "assistant", "content": response})
-                st.rerun()
+        with st.spinner("Assistant is typing..."):
+            response = get_response(user_query)
+        st.session_state.messages.append({"role": "assistant", "content": response})
+
+        if input_mode == "Voice":
+            speak_text(response)  # Speak only if input was Voice
+
+
 
         if st.button("Change Domain", key="change_domain"):
             st.session_state.domain = None
-            st.rerun()
+
+        # Export Chat Button
+if st.button("Export Chat as .txt", key="export_chat"):
+    from io import StringIO
+    chat_text = ""
+    for msg in st.session_state.messages:
+        role = "You" if msg["role"] == "user" else "Assistant"
+        chat_text += f"{role}: {msg['content']}\n\n"
+
+    st.download_button(
+        label="Download Chat History",
+        data=chat_text,        
+        file_name="nexora_chat.txt",
+        mime="text/plain",
+        key="download_button"
+    )
 
 # ---------------- Footer ---------------- #
 st.markdown("""
