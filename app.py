@@ -276,9 +276,7 @@ else:
 
         if st.button("Change Domain", key="change_domain"):
             st.session_state.domain = None
-
         from io import StringIO
-
         chat_text = ""
         for msg in st.session_state.messages:
             role = "You" if msg["role"] == "user" else "Assistant"
