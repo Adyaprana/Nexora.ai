@@ -6,6 +6,7 @@ __pycache__/
 
 # Ignore virtual environment
 venv/
+testenv/
 # Ignore secrets.toml
 secrets.toml
 # Ignore Streamlit folder
