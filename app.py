@@ -150,7 +150,7 @@ st.markdown("""
 
 # Sidebar Navigation
 with st.sidebar:
-    st.image("D:/001/A final chatbot (Mistral)/generated-icon.png", width=280)
+    st.image("assets/generated-icon.png", width=280)
     st.title("Navigation")
     nav_option = st.radio("Go to", ["Chat", "About Project", "Technology", "Future Scope"], key="nav_radio")
 
