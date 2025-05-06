@@ -1,5 +1,3 @@
-# render.yaml
-
 services:
   - type: web
     name: nexora-ai            # Must match the service name in the Dashboard
@@ -11,5 +9,3 @@ services:
     envVars:
       - key: MISTRAL_API_KEY
         fromSecret: MISTRAL_API_KEY
-
-
