@@ -1,11 +1,14 @@
+# image_processing.py
+
 import pytesseract
 from PIL import Image
 
-# Correct Installed Path
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+# Set the correct path to tesseract binary for Linux (Render uses Debian-based systems)
+pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
 
 def extract_text_from_image(image_file):
     image = Image.open(image_file)
     text = pytesseract.image_to_string(image)
-    return text.strip() if text else "No text found."
+    return text
+
 
