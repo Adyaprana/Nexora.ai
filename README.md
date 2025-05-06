@@ -17,14 +17,14 @@ A smart chatbot that supports text, voice, image, and PDF input. It leverages AI
 5. Run the application: `streamlit run app.py`
 
 ## Deployment
-This project can be deployed on [Streamlit Cloud](https://share.streamlit.io/) or other cloud platforms. 
+This project can be deployed on [render cloud](https://nexora-ai-2wcg.onrender.com) or other cloud platforms. 
 Follow these steps:
 1. Clone the repository.
 2. Create a virtual environment and install dependencies using `pip install -r requirements.txt`.
 3. Add your MISTRAL_API_KEY in `.streamlit/secrets.toml`.
 4. Run the app using `streamlit run app.py`.
 
-**Live Demo:** [https://your-live-demo-link.com](https://your-live-demo-link.com)
+**Live Demo:** [https://linkedin.com]([https://your-live-demo-link.com](https://www.linkedin.com/posts/adyaprana21_codecomplete-teamkiit-include-activity-7316729214173335552-V1v6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD7caBcBCywqQWecOI5U8uTtlxJeS1QtTEE))
 
 ## Technology Used
 - Python, Streamlit, pytesseract, SpeechRecognition, PyPDF2, Mistral API, etc.
