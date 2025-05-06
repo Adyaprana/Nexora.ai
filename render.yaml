@@ -1,11 +1,13 @@
 services:
   - type: web
-    name: nexora-ai            # Must match the service name in the Dashboard
-    runtime: docker            # Indicates you’re using a Dockerfile
-    plan: free                 # Or "starter", "standard", etc.
+    name: nexora-ai            # Must exactly match your existing service name
+    runtime: docker            # Uses your Dockerfile
+    plan: free                 # Or any paid tier you prefer
     branch: main               # Git branch for auto-deploys
     repo: https://github.com/Adyaprana/Nexora.ai
     dockerfilePath: ./Dockerfile
+
     envVars:
+      # Pull in the secret from Render's UI (Environment → Secrets)
       - key: MISTRAL_API_KEY
-        fromSecret: MISTRAL_API_KEY
+        sync: false
