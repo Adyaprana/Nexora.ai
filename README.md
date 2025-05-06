@@ -24,7 +24,7 @@ Follow these steps:
 3. Add your MISTRAL_API_KEY in `.streamlit/secrets.toml`.
 4. Run the app using `streamlit run app.py`.
 
-**Live Demo:** [https://linkedin.com]([https://your-live-demo-link.com](https://www.linkedin.com/posts/adyaprana21_codecomplete-teamkiit-include-activity-7316729214173335552-V1v6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD7caBcBCywqQWecOI5U8uTtlxJeS1QtTEE))
+**Live Demo:** [https://linkedin.com](https://www.linkedin.com/posts/adyaprana21_codecomplete-teamkiit-include-activity-7316729214173335552-V1v6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD7caBcBCywqQWecOI5U8uTtlxJeS1QtTEE)
 
 ## Technology Used
 - Python, Streamlit, pytesseract, SpeechRecognition, PyPDF2, Mistral API, etc.
