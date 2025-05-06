@@ -1,3 +1,4 @@
+# render.yaml
 blueprintName: nexora-ai
 
 services:
@@ -11,5 +12,4 @@ services:
     envVars:
       - key: MISTRAL_API_KEY
         sync: false
-
 
