@@ -1,15 +1,11 @@
-# render.yaml
-blueprintName: nexora-ai
-
 services:
   - type: web
-    name: nexora-ai
-    env: docker
-    branch: main
+    name: nexora-ai            # Must match the service name in the Dashboard
+    runtime: docker            # Indicates you’re using a Dockerfile
+    plan: free                 # Or "starter", "standard", etc.
+    branch: main               # Git branch for auto-deploys
     repo: https://github.com/Adyaprana/Nexora.ai
     dockerfilePath: ./Dockerfile
-
     envVars:
       - key: MISTRAL_API_KEY
-        sync: false
-
+        fromSecret: MISTRAL_API_KEY
