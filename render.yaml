@@ -1,15 +1,15 @@
-blueprintName: nexora-ai        # Unique name for your Blueprint
+blueprintName: nexora-ai
 
 services:
   - type: web
-    name: nexora-ai             # Must match your existing service name
+    name: nexora-ai
     env: docker
     branch: main
     repo: https://github.com/Adyaprana/Nexora.ai
     dockerfilePath: ./Dockerfile
 
-    # Tell Render to sync this key from the Dashboard (so it's not in your repo)
     envVars:
       - key: MISTRAL_API_KEY
         sync: false
+
 
