@@ -1,0 +1,11 @@
+# render.yaml
+services:
+  - type: web
+    name: nexora-ai                # must match your existing service name
+    env: docker
+    branch: main
+    repo: https://github.com/Adyaprana/Nexora.ai
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: MISTRAL_API_KEY
+        fromSecret: MISTRAL_API_KEY
