@@ -74,33 +74,36 @@ api_key = "YOUR_MISTRAL_API_KEY"
 # 5. Run the application
 streamlit run app.py
 ```
-☁️ Deployment
+## ☁️ Deployment
+
 You can easily deploy this app to any modern cloud platform:
 
-🌐 Render
+- 🌐 **[Render](https://render.com)**
+- 🚀 **[Streamlit Cloud](https://streamlit.io/cloud)**
+- 📦 **[Heroku](https://heroku.com)**
 
-🚀 Streamlit Cloud
+> 🔑 **Note:** Always store sensitive credentials securely using environment variables or `.streamlit/secrets.toml`.
 
-📦 Heroku
+---
 
-🔑 Note: Always store sensitive credentials (e.g., MISTRAL_API_KEY) securely using environment variables or the .streamlit/secrets.toml file.
+## 🔮 Future Roadmap
 
-🔮 Future Roadmap
-Here's what's planned for future enhancements:
+Here's what's planned:
 
-🧩 Plugin System — Add modular support for more domains (e.g., Finance, Law, etc.)
+- 🧩 **Plugin System** — Modular domain expansion
+- 💬 **Conversational Memory** — Context retention
+- 🌍 **Multilingual Support**
+- 🔐 **Robust Error Handling**
 
-💬 Conversational Memory — Retain context across sessions and chats
+---
 
-🌍 Multilingual Support — Understand and respond in multiple languages
+## 📄 License
 
-🔐 Robust Error Handling — Better validation, fallback messages, and user alerts
+Licensed under the **MIT License** — see the [LICENSE](./LICENSE) file.
 
-💡 Have a feature request? Feel free to open an issue or suggest enhancements!
+---
 
-📄 License
-This project is licensed under the MIT License.
-See the LICENSE file for more details.
+## 👨‍💻 Author
 
-👨‍💻 Author
-Adyaprana Pradhan
+**Adyaprana Pradhan**  
+🔗 [LinkedIn](https://linkedin.com/in/adyaprana21) • [GitHub](https://github.com/adyaprana)
