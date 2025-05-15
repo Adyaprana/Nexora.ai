@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://your-logo-url.com/logo.png" alt="Multimodal Chatbot Logo" width="120"/>
+  <img src="assets\generated-icon.png" alt="Multimodal Chatbot Logo" width="120"/>
 </p>
 
-<h1 align="center">Multimodal Virtual Assistant Chatbot</h1>
+<h1 align="center">Nexora.ai</h1>
 
 <p align="center">
   🌐 A smart, AI-powered assistant that understands <strong>text</strong>, <strong>voice</strong>, <strong>images</strong>, and <strong>PDFs</strong>.  
@@ -23,7 +23,7 @@
 
 > 🎬 *Check out a quick walkthrough of the app below:*
 
-![Demo GIF](https://your-demo-gif-url.com/demo.gif)
+[![Demo GIF](https://raw.githubusercontent.com/yourusername/yourrepo/main/assets/demo.gif)](https://www.linkedin.com/posts/adyaprana21_codecomplete-teamkiit-include-activity-7316729214173335552-V1v6)
 
 🔗 **Live Demo:**  
 [Visit App on Render](https://nexora-ai-2wcg.onrender.com)  
@@ -100,5 +100,3 @@ This project is licensed under the MIT License — see the LICENSE file for deta
 
 👨‍💻 Author
 Adyaprana Pradhan
-🎓 BCA Final Year Student | Cloud & DevOps Enthusiast
-📫 LinkedIn | GitHub
