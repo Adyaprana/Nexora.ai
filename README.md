@@ -23,7 +23,7 @@
 
 > 🎬 *Check out a quick walkthrough of the app below:*
 
-[![Demo GIF](https://raw.githubusercontent.com/yourusername/yourrepo/main/assets/demo.gif)](https://www.linkedin.com/posts/adyaprana21_codecomplete-teamkiit-include-activity-7316729214173335552-V1v6)
+ <img src="assets\Home.png" width="600"/>
 
 🔗 **Live Demo:**  
 [Visit App on Render](https://nexora-ai-2wcg.onrender.com)  
@@ -74,30 +74,33 @@ api_key = "YOUR_MISTRAL_API_KEY"
 # 5. Run the application
 streamlit run app.py
 ```
+☁️ Deployment
+You can easily deploy this app to any modern cloud platform:
 
-**☁️ Deployment**
-You can deploy this app on:
+🌐 Render
 
-***Render***
+🚀 Streamlit Cloud
 
-***Streamlit Cloud***
+📦 Heroku
 
-***Heroku***
+🔑 Note: Always store sensitive credentials (e.g., MISTRAL_API_KEY) securely using environment variables or the .streamlit/secrets.toml file.
 
-Note: Store API keys securely using environment variables or Streamlit secrets.
+🔮 Future Roadmap
+Here's what's planned for future enhancements:
 
-**🔮 Future Plans**
+🧩 Plugin System — Add modular support for more domains (e.g., Finance, Law, etc.)
 
-🧩 Plugin System for Domain Expansion
+💬 Conversational Memory — Retain context across sessions and chats
 
-💬 Conversational Memory & Chat History
+🌍 Multilingual Support — Understand and respond in multiple languages
 
-🌐 Multi-language Input
+🔐 Robust Error Handling — Better validation, fallback messages, and user alerts
 
-🔐 Better Error Handling & Validation
+💡 Have a feature request? Feel free to open an issue or suggest enhancements!
 
-**📄 License**
-This project is licensed under the MIT License — see the LICENSE file for details.
+📄 License
+This project is licensed under the MIT License.
+See the LICENSE file for more details.
 
-**👨‍💻 Author**
-***Adyaprana Pradhan***
+👨‍💻 Author
+Adyaprana Pradhan
