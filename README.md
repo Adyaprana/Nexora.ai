@@ -75,28 +75,23 @@ api_key = "YOUR_MISTRAL_API_KEY"
 streamlit run app.py
 ```
 
-☁️ Deployment
+**☁️ Deployment**
 You can deploy this app on:
 
-Render
-
-Streamlit Cloud
-
-Heroku
+***Render***
+***Streamlit Cloud***
+***Heroku***
 
 Note: Store API keys securely using environment variables or Streamlit secrets.
 
-🔮 Future Plans
+**🔮 Future Plans**
 🧩 Plugin System for Domain Expansion
-
 💬 Conversational Memory & Chat History
-
 🌐 Multi-language Input
-
 🔐 Better Error Handling & Validation
 
-📄 License
+**📄 License**
 This project is licensed under the MIT License — see the LICENSE file for details.
 
-👨‍💻 Author
-Adyaprana Pradhan
+**👨‍💻 Author**
+***Adyaprana Pradhan***
