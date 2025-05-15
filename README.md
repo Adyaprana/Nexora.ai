@@ -79,15 +79,21 @@ streamlit run app.py
 You can deploy this app on:
 
 ***Render***
+
 ***Streamlit Cloud***
+
 ***Heroku***
 
 Note: Store API keys securely using environment variables or Streamlit secrets.
 
 **🔮 Future Plans**
+
 🧩 Plugin System for Domain Expansion
+
 💬 Conversational Memory & Chat History
+
 🌐 Multi-language Input
+
 🔐 Better Error Handling & Validation
 
 **📄 License**
