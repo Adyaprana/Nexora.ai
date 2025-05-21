@@ -1,4 +1,4 @@
-<p align="center">
+ <p align="center">
   <img src="assets\generated-icon.png" alt="Multimodal Chatbot Logo" width="120"/>
 </p>
 
