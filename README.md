@@ -27,7 +27,7 @@
 
 ## 🚀 Live Demo
 
-<div style="display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; gap: 1rem;">
+<div style="display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; gap: 2rem; padding: 1rem 0;">
 
   <a href="https://nexora-ai-2wcg.onrender.com" target="_blank" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/%F0%9F%9A%80%20Visit%20App%20on%20Render-blue?style=for-the-badge" alt="Visit App">
@@ -38,6 +38,7 @@
   </a>
 
 </div>
+
 
 
 
