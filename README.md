@@ -25,9 +25,22 @@
 
  <img src="assets\Home.png" width="600"/>
 
-🔗 **Live Demo:**  
-[Visit App on Render](https://nexora-ai-2wcg.onrender.com)  
-[LinkedIn Post](https://www.linkedin.com/posts/adyaprana21_codecomplete-teamkiit-include-activity-7316729214173335552-V1v6)
+## 🚀 Live Demo
+
+<div align="center" style="margin-top: 1rem; margin-bottom: 1rem;">
+
+<a href="https://nexora-ai-2wcg.onrender.com" target="_blank" style="text-decoration: none;">
+  <img src="https://img.shields.io/badge/%F0%9F%9A%80%20Visit%20App%20on%20Render-blue?style=for-the-badge" alt="Visit App">
+</a>
+
+<br><br>
+
+<a href="https://www.linkedin.com/posts/adyaprana21_codecomplete-teamkiit-include-activity-7316729214173335552-V1v6" target="_blank" style="text-decoration: none;">
+  <img src="https://img.shields.io/badge/%F0%9F%93%A2%20LinkedIn%20Post-0077b5?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn Post">
+</a>
+
+</div>
+
 
 ---
 
