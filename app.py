@@ -13,6 +13,7 @@ if 'messages' not in st.session_state:
 # Set page configuration
 st.set_page_config(page_title="Nexora.ai", page_icon="🤖", layout="wide")
 
+
 st.markdown("""
 <style>
 /* Global Styling */
