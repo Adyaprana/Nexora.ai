@@ -118,4 +118,8 @@ Licensed under the **MIT License** — see the [LICENSE](./LICENSE) file.
 ## 👨‍💻 Author
 
 **Adyaprana Pradhan**  
-🔗 [LinkedIn](https://linkedin.com/in/adyaprana21) • [GitHub](https://github.com/adyaprana)
+- **GitHub:** [https://github.com/Adyaprana](https://github.com/Adyaprana)  
+- **LinkedIn:** [https://www.linkedin.com/in/adyaprana21](https://www.linkedin.com/in/adyaprana21)
+- **🌐 Website:** [adyaprana.com](https://www.adyaprana.com)  
+- 🐦 Twitter: [@Adyaprana](https://x.com/Adyaprana21)
+- 📸 Instagram: [@adyaprana](https://www.instagram.com/tensor_photos/)
